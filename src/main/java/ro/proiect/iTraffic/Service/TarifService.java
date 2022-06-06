@@ -90,6 +90,6 @@ public class TarifService {
             tarifeRepository.deleteById(id);
             return new ResponseEntity<>("Fare with id <" + id + "> has been removed.", HttpStatus.OK);
         }
-        return new ResponseEntity<>("Can't find room with id <" + id + ">.", HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>("Can't find fare with id <" + id + ">.", HttpStatus.BAD_REQUEST);
     }
 }

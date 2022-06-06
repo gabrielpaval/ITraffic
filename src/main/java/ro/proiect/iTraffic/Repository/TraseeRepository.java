@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import ro.proiect.iTraffic.Models.Trasee;
 
 public interface TraseeRepository extends JpaRepository<Trasee, Long>, JpaSpecificationExecutor<Trasee> {
-
+    int countById(Long id);
 }
