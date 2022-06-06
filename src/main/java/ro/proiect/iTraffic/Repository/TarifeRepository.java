@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import ro.proiect.iTraffic.Models.Tarife;
 
 public interface TarifeRepository extends JpaRepository<Tarife, Long>, JpaSpecificationExecutor<Tarife> {
-
+    int countById(Long id);
 }

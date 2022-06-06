@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import ro.proiect.iTraffic.Service.TraseuService;
 
 @RestController
-@RequestMapping(path="/api/traseu")
+@RequestMapping(path="/api/v2/traseu")
 public class TraseuController {
 
     @Autowired
